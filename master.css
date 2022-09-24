@@ -201,7 +201,7 @@ fieldset {
   }
 
    /* this controls how the bullet points in the resume page looks */
-   ul {
+    ul {
     display: table;
     margin: 0 auto;
     text-align: left;
