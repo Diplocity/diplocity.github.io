@@ -39,4 +39,10 @@
   color: #777;
   background: #4CAF50;
 }
+    form {
+      max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+    }
 
