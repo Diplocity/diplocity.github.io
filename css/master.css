@@ -1,48 +1,90 @@
-  /*Cascading stylesheet for the website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
-  /* Text inside these asterisks and slashes are comments for human */
-
-  a {
-    color: blue;/* set the text color to blue here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
-
-   a:hover {
-    color: red;/* set the text color to red here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
-
-  body {
-    background-color: Aquamarine;/* set the background color here */
-    color: black; /* set the text color to black here */
-    font-family: Arial, Helvetica, sans-serif;/* set the font here */
-    text-align: center;/* set the text alignment here */
-
- * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-   font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+html {
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
-  body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #4CAF50;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-    form {
-      max-width: 400px;
+
+body {
+  background-color: Aquamarine;
+  color: black;
+  text-align: center;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  color: #075AAB;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+h4 {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+h5 {
+  margin-top: 0.5rem;
+}
+
+hr {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form {
+  max-width: 400px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-    }
+}
 
+.row {
+  margin: 15px;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
