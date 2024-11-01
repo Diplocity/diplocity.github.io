@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Ebenezer Edem Zuh's Portal">
-
   <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Ebenezer Edem Zuh's Portal">
+  <meta property="og:description" content="Mobile app and website developer in Accra. Founder of Euphoric Tribe.">
+  <meta property="og:image" content="images/banner.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
   <title>Ebenezer's Portal</title>
 
   <!-- Favicon -->
@@ -13,45 +17,55 @@
 
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/master.css">
-  <style>
-    body {
-      background-color: #ffffcc;
-    }
-  </style>
 </head>
 
-<body>
-  <img src="images/banner.jpg" width="75%" alt="banner">
-  <h1>Ebenezer Edem Zuh's Portal</h1>
-  <h2>About Me</h2>
-  <p>I am a mobile app and website developer in Accra.</p>
-  <p>I studied Information Technology at Accra Institute of Technology.</p>
-  <p>I am currently the founder and Full Stack developer of Euphoric Tribe</p>
-  <h2>Credentials and Portfolio</h2>
+<body style="background-color: #ffffcc;">
+  <header>
+    <img src="images/banner.jpg" width="100%" alt="Banner image showcasing Ebenezer's Portal">
+    <h1>Ebenezer Edem Zuh's Portal</h1>
+  </header>
 
-  <p><a href="resume.html">My Resume</a> | <a href="https://github.com/Diplocity">My GitHub</a> | <a href="designs.html">My Designs</a></p>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I am a mobile app and website developer in Accra.</p>
+      <p>I studied Information Technology at Accra Institute of Technology.</p>
+      <p>I am currently the founder and Full Stack developer of Euphoric Tribe.</p>
+    </section>
 
-  <h2>Contact</h2>
-  <form action="https://formspree.io/f/moqbegrj" method="POST">
-    <label>
-      Your email:
-      <input type="email" name="email">
-    </label>
-    <label>
-      Your message:
-      <textarea name="message"></textarea>
-    </label>
-    <!-- your other form fields go here -->
-    <button type="submit">Send</button>
-  </form>
+    <section>
+      <h2>Credentials and Portfolio</h2>
+      <p>
+        <a href="resume.html">My Resume</a> | 
+        <a href="https://github.com/Diplocity">My GitHub</a> | 
+        <a href="designs.html">My Designs</a>
+      </p>
+    </section>
 
-  <p>Twitter: @edem_zuh and @zuh_edem</p>
+    <section>
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/moqbegrj" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Your message:
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      <p>Twitter: @edem_zuh and @zuh_edem</p>
+    </section>
+  </main>
 
   <footer>
     <hr>
     <code>Copyright (c) 2022 Edem Zuh</code>
   </footer>
 </body>
+
 </html>
+
  
 
